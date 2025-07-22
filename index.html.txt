@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Capsules Managériales Interactives</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: normal;
+    }
+    .capsule {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #0055aa;
+      font-weight: bold;
+    }
+    .capsule img {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      width: 300px;
+      max-width: 90vw;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      background: #fff;
+      z-index: 10;
+      margin-top: 8px;
+    }
+    .capsule:hover img {
+      display: block;
+    }
+    p {
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Capsules Managériales Interactives</h1>
+
+
+  <p><span class="capsule">Rôle du manager
+    <img src="images/role-manager.png" alt="Rôle du manager">
+  </span> : il guide, motive et organise les équipes.</p>
+
+
+  <p>Le <span class="capsule">Profil AEC DISC
+    <img src="images/profil-disc.png" alt="Profil DISC">
+  </span> permet de mieux se comprendre, d’adapter sa communication et d’analyser ses talents et axes de développement.</p>
+
+
+  <p>Une <span class="capsule">Communication Gestion des conflits
+    <img src="images/communication-conflit.png" alt="Gestion des conflits">
+  </span> efficace permet d’anticiper les tensions, s’adapter à son interlocuteur et renforcer le courage managérial.</p>
+
+
+  <p>Les <span class="capsule">Rituels managériaux
+    <img src="images/rituels-manageriaux.png" alt="Rituels managériaux">
+  </span> permettent d’installer des repères, favoriser la régularité et clarifier les rôles dans l’équipe.</p>
+
+
+  <p><span class="capsule">Se positionner en tant que manager
+    <img src="images/positionnement-manager.png" alt="Positionnement managérial">
+  </span> implique d’évaluer ses collaborateurs, s’auto-évaluer et structurer des plans d’action individualisés.</p>
+
+
+  <p>L’<span class="capsule">Accompagnement en situation de terrain
+    <img src="images/accompagnement-travail.png" alt="Accompagnement terrain">
+  </span> vise à concrétiser les apports théoriques et adapter les démarches au contexte réel.</p>
+
+
+  <p>Le <span class="capsule">Bilan final
+    <img src="images/bilan-final.png" alt="Bilan final">
+  </span> permet de faire le point sur le parcours, se projeter à 6 mois et pérenniser les acquis managériaux.</p>
+</body>
+</html>
